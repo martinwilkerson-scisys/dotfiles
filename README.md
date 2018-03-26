@@ -14,6 +14,8 @@
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
     ```
 
+### Dotfile installation
+
 ```
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 git clone --bare https://github.com/martinwilkerson-scisys/dotfiles.git $HOME/.dotfiles
